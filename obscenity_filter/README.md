@@ -15,7 +15,7 @@
 You will need to do some regular expression testing to avoid evaluating punctuation in the text. A method you can use to replace text using regex is called `gsub`. Imagine if we wanted to remove spaces and commas:
 
 ```
-text = "Hello, World!
+text = "Hello, World!"
 
 filtered_text = text.gsub(/[, ]/, "")
 
